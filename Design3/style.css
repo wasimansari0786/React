@@ -1,0 +1,410 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-evenly;
+    width: 20%;
+    gap: 5px;
+}
+
+.flex1{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-evenly;
+    width: 50%;
+}
+.flex2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.flex3{
+    display: flex;
+    justify-content: space-evenly;
+    width:40% ;
+}
+.header{
+display: flex;
+background-color: black;
+color:white;
+justify-content: space-evenly;
+/* align-items: center; */
+padding-bottom: 15px;
+}
+.user{
+    height: 30px;
+    width: 30px;
+}
+.hr{
+    border-top:1px solid gainsboro;
+    margin: 0%;
+}
+.fa-cog{
+    border:1px solid gainsboro;
+    padding: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 30px;
+}
+.fa-bell-o{
+    border:1px solid gainsboro;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.header2{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
+.space{
+    display: flex; 
+    align-items: center;
+    /* background-color: red; */
+   justify-content: space-between;
+   gap: 40px;
+}
+.sub-space{
+    display: flex; 
+    align-items: center;
+    gap: 15px;
+}
+
+.line{
+    border: 1px solid gainsboro;
+    height: 50px;
+    padding-top: 10px;
+}
+.fa-search, .sub-space .fa-map-marker, .fa-briefcase, .fa-money{
+    border:1px solid gainsboro;
+    padding: 10px;
+    border-radius: 20px;
+}
+.inner{
+    display: flex;
+    gap: 30px;
+}
+.hr-line{
+    width: 100%;
+}
+.hr-line2{
+    border: 1px solid aqua;
+    width: 100px; 
+    margin-top: -10px;
+    margin-left: 20px;
+}
+.left-icon{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-top: -14px;
+    margin-left: 10px;
+}
+.right-icon{
+    width: 10px;
+    height: 10px;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-top: -10px;
+    margin-left: 120px;
+}
+.main-container{
+    display: flex;
+}
+.left-container{
+width: 25%;
+display: flex;
+/* justify-content: space-evenly; */
+align-items: center;
+flex-direction: column;
+
+}
+.right-container{
+width: 75%;
+}
+.right-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sub-header{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-header h3{
+    border:1px solid gainsboro;
+    padding: 7px 12px 7px 12px;
+    border-radius: 20px;
+}
+.sortby{
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+}
+span{
+    color: #B2BEB5;
+    
+}
+
+.left-card{
+    margin-top: 30px;
+    height: 200px;
+    width: 170px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.l-inside{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.learn-more{
+    color: black; 
+    background-color: skyblue; 
+    width: 150px;
+    border-radius: 20px; 
+    height: 30px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    font-weight: bold;
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    /* width: 170px; */
+    gap: 90px;
+    padding-top: 15px;
+}
+
+/* .check-box {
+    display: inline-block;
+    margin-bottom: 10px;
+} */
+label {
+    display: block;
+    /* margin-top:5px; */
+}
+input[type="checkbox"] {
+   margin-right: 15px;
+   accent-color: black;
+}
+.straight-line{
+    border: 1px solid gainsboro;
+    height: 100%;
+    margin-top: 40px;
+}
+
+.card-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.right-card{
+height: 300px;
+width: 280px;
+background-color: white;
+border: 1px solid  gainsboro;
+border-radius: 15px;
+margin-bottom: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+/* gap: 10px; */
+
+}
+
+.card-inside{
+    height: 75%;
+    width: 95%;
+    background-color: peachpuff;
+    border-radius: 5%;
+    margin-top: 5px;
+}
+
+.date{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.date p{
+    display: inline;
+    background-color: white;
+    height: 15px;
+    /* width: 100px; */
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.fa-bookmark-o,.fa-bookmark{
+    background-color: white;
+    border-radius: 50%;
+    padding: 7px; 
+    width: 17px; 
+    height: 17px; 
+    text-align: center;   
+}
+.role{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    /* font-size: 17px; */
+}
+.fa-amazon{
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    padding: 7px; 
+    width: 17px; 
+    height: 17px; 
+    text-align: center;     
+}
+.Amazon{
+    padding: 0%;
+    margin: 0%;
+    padding-left: 10px;
+
+}
+.role h4{
+    margin-top: 10px;
+    margin-bottom: 0%;
+}
+.p{
+    border: 1px solid gainsboro;
+    margin: 5px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    font-size: 13px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.p-container{
+    display: flex; 
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    
+}
+
+.card-inside-bottom{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* gap: 20px; */
+   
+}
+
+.Details {
+    margin-bottom: 0%;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    height: 20px;
+    padding: 7px 10px;
+}
+.card-inside-bottom p{
+    color: #B2BEB5;
+    margin: 0%;
+}
+.fa-google,.fa-apple{
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    padding: 7px; 
+    width: 17px; 
+    height: 17px; 
+    text-align: center;    
+}
+
+.card-inside1{
+    height: 75%;
+    width: 95%;
+    background-color:#D4F1F4;
+    border-radius: 5%;
+    margin-top: 5px;
+}
+.card-inside2{
+    height: 75%;
+    width: 95%;
+    background-color:#E3E3E8;
+    border-radius: 5%;
+    margin-top: 5px;
+}
+.fa-dribbble{
+    /* font-size: 10px; */
+    color: #811331;
+}
+.fa-twitter{
+    background-color: rgb(42, 152, 196);
+    color: white;
+    border-radius: 50%;
+    padding: 7px; 
+    width: 17px; 
+    height: 17px; 
+    text-align: center;
+}
+.card-inside3{
+    height: 75%;
+    width: 95%;
+    background-color:#e7f5fe;
+    border-radius: 5%;
+    margin-top: 5px;
+}
+.card-inside4{
+    height: 75%;
+    width: 95%;
+    background-color:#FBE7FA;
+    border-radius: 5%;
+    margin-top: 5px;
+}
+.Airbnb,.apple{
+    display: flex;
+    padding-top: 60px;    
+}
+
+.card-inside5{
+    height: 75%;
+    width: 95%;
+    background-color:#F5F5F5;
+    border-radius: 5%;
+    margin-top: 5px;
+}
+
+.airbnb-logo{
+    height: 30px;
+    width: 30px;
+}
