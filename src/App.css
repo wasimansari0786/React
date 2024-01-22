@@ -1,0 +1,27 @@
+.main_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  /* background-color: azure; */
+}
+
+.sub_div {
+  height: 250px;
+  width: 300px;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 25px -10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+  /* width: 200px; */
+  gap: 20px;
+}
